@@ -15,10 +15,10 @@ name = "Didin Sibua"
 # Link settings
 [[params.links]]
 github = "https://github.com/didins97"
-linkedin = ""
+linkedin = "https://www.linkedin.com/in/didin-sibua/"
 instagram = "https://www.instagram.com/didinsibua_"
 email = "https://mail.google.com/mail/u/0/#inbox"
-facebook = ""
+facebook = "https://web.facebook.com/mhmmadhfiddn.mhmmadhfiddn/"
 
 ## Navbar
 [[menu.main]]
