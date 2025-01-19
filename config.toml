@@ -1,0 +1,41 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Didin Sibua'
+
+theme = "qubt"
+
+[params]
+# Author settings
+[params.author]
+greeting = "Just a guy trying to make the web a little less buggy" 
+icon = ":wave:" 
+image = "author.png" # Pastikan gambar ini ada di folder yang benar
+name = "Didin Sibua"
+
+# Link settings
+[[params.links]]
+github = "https://github.com/didins97"
+linkedin = ""
+instagram = "https://www.instagram.com/didinsibua_"
+email = "https://mail.google.com/mail/u/0/#inbox"
+facebook = ""
+
+## Navbar
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 10
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 20
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 30
+
+# modules = ["github.com/chrede88/qubt/v2"]
+[[ module.imports ]]
+path = "qubt"
