@@ -1,12 +1,13 @@
 ---
 # don't change
-type: misc
+# type: misc
 
 # change these
 jobTitle: Web Developer
 name: Didin Sibua
 bio: true
 icon: ":coffee:"
+time: false
 ---
 
 ## 👨‍💻 **Tentang Saya**
