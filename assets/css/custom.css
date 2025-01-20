@@ -1,0 +1,24 @@
+.typing-animation {
+    display: inline-block;
+    border-right: 3px solid transparent; /* Cursor */
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(40) 1s forwards, blink-caret 0.75s step-end infinite;
+  }
+  
+  /* Keyframes untuk animasi mengetik */
+  @keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+  }
+  
+  /* Keyframes untuk cursor berkedip */
+  @keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+  }
