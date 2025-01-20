@@ -1,6 +1,6 @@
 // Daftar teks yang akan diganti
 const texts = [
-    "Just a web developer making the web less buggy.",
+    "Just a dev, fixing bugs.",
     "A lifelong learner.",
     "Always improving through coding."
   ];
