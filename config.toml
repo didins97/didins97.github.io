@@ -39,3 +39,6 @@ weight = 30
 # modules = ["github.com/chrede88/qubt/v2"]
 [[ module.imports ]]
 path = "qubt"
+
+[markup.goldmark.renderer]
+unsafe = true
