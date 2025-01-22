@@ -12,25 +12,25 @@ time: false
 
 ## 👨‍💻 **Tentang Saya**
 - **☕ M. Hafiduddin Sibua (Nama Lengkap)**  
-  Freelance Web Developer yang senang mengeksplorasi pengembangan backend, inovasi perangkat lunak, serta belajar hal baru. Ia juga menikmati tantangan dalam pekerjaan yang dijalani.
+  Freelance Web Developer yang senang mengeksplorasi pengembangan Web, inovasi perangkat lunak, serta belajar hal baru dan juga menikmati tantangan dalam pekerjaan yang dijalani.
 
 ---
 
 ### **💼 Pengalaman Profesional**
-- **💻 Intern Software Developer**  
-  PT. Upana Pelopor Aplikasi Adikarya: Berfokus pada pengembangan aplikasi web menggunakan Laravel dan MySQL.
+- **💻 Intern Software Developer**
+  PT. Upana Pelopor Aplikasi Adikarya: 
+    - Berfokus pada pengembangan aplikasi web menggunakan Laravel dan MySQL.
+    - Bekerja pada komponen frontend dan backend, memastikan pengalaman pengguna yang baik dan pengelolaan data yang efisien
 
-- **🛠️ Backend Developer**  
-  Membuat Rest API, Design Database, dan Mengoptimalkan Performa Aplikasi.
-
-- **🎓 Asisten Lab Komputer**  
-  Membantu mahasiswa dalam pratikum dan memberikan panduan teknis terkait penggunaan perangkat.
-
+- **💻 Backend Developer**
+  PT. Upana Pelopor Aplikasi Adikarya:
+    - Mengembangkan dan memelihara sistem backend untuk mendukung fungsionalitas aplikasi dan website.
+    - Membangun API yang efisien dan aman. 
+    - Mengelola integrasi database, optimasi query, dan memastikan skalabilitas sistem.
 ---
 
 ### **📌 Ketertarikan Saat Ini**
 - 🤖 Mendalami Artificial Intelligence (AI) dan Machine Learning (ML).
-- ✍️ Menulis blog tentang tutorial dan pengalaman di bidang teknologi.
 - 🛠️ Mengerjakan proyek kecil dan inovasi.
 
 ---
@@ -71,7 +71,8 @@ time: false
 
 
 - **🌐 Bahasa**:  
-  Bahasa Indonesia (aktif), Inggris (pasif)
+    - Bahasa Indonesia (aktif), 
+    - Inggris (pasif)
 
 
 ---
