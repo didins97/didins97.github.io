@@ -73,15 +73,15 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      # List files in the downloaded artifact (debug)
+      - name: List files in downloaded artifact (debug)
+        run: ls -al # Pastikan artifact diunduh dengan benar
+        
       # Download the build artifact
       - name: Download Build Artifact
         uses: actions/download-artifact@v4
         with:
           name: hugo-site  # Nama artifact yang diunduh harus sama dengan nama yang di-upload
-
-      # List files in the downloaded artifact (debug)
-      - name: List files in downloaded artifact (debug)
-        run: ls -al ./hugo-site  # Pastikan artifact diunduh dengan benar
 
       # Deploy to cPanel via FTP
       - name: Upload to cPanel via FTP
