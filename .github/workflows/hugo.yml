@@ -51,6 +51,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          name: hugo-site   # Pastikan nama artifact yang di-upload sesuai
           path: ./public
 
   # Deploy to GitHub Pages job
