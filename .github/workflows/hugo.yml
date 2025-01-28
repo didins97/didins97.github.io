@@ -51,7 +51,7 @@ jobs:
       - name: List files in public directory (debug)
         run: ls -al ./public  # Periksa apakah folder public ada dan berisi file
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: hugo-site   # Nama artifact
           path: ./public    # Folder yang di-upload
@@ -75,7 +75,7 @@ jobs:
     steps:
       # Download the build artifact
       - name: Download Build Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: hugo-site  # Nama artifact yang diunduh harus sama dengan nama yang di-upload
 
