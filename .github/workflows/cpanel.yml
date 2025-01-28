@@ -22,7 +22,7 @@ jobs:
       run: hugo
 
     - name: Deploy to cPanel
-      uses: SamKirkland/FTP-Deploy-Action@4.5.0
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ftp://ftp.example.com
         username: ${{ secrets.CPANEL_USERNAME }}
