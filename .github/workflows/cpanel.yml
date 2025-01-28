@@ -1,0 +1,31 @@
+name: Deploy Hugo to cPanel
+
+on:
+  push:
+    branches:
+      - main  # Trigger jika ada push ke branch 'main'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+
+    - name: Build Hugo site
+      run: hugo
+
+    - name: Deploy to cPanel
+      uses: SamKirkland/FTP-Deploy-Action@4.5.0
+      with:
+        server: ftp://ftp.example.com
+        username: ${{ secrets.CPANEL_USERNAME }}
+        password: ${{ secrets.CPANEL_PASSWORD }}
+        local-dir: public/  # Folder hasil build Hugo
+        server-dir: /public_html  # Folder target di cPanel
