@@ -48,11 +48,13 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: List files in public directory (debug)
+        run: ls -al ./public  # Periksa apakah folder public ada dan berisi file
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
-          name: hugo-site   # Pastikan nama artifact yang di-upload sesuai
-          path: ./public
+          name: hugo-site   # Nama artifact
+          path: ./public    # Folder yang di-upload
 
   # Deploy to GitHub Pages job
   deploy_to_github_pages:
@@ -71,11 +73,15 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      # Download the build artifact from the build job
+      # Download the build artifact
       - name: Download Build Artifact
         uses: actions/download-artifact@v3
         with:
-          name: hugo-site
+          name: hugo-site  # Nama artifact yang diunduh harus sama dengan nama yang di-upload
+
+      # List files in the downloaded artifact (debug)
+      - name: List files in downloaded artifact (debug)
+        run: ls -al ./hugo-site  # Pastikan artifact diunduh dengan benar
 
       # Deploy to cPanel via FTP
       - name: Upload to cPanel via FTP
@@ -84,6 +90,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.CPANEL_USERNAME }}
           password: ${{ secrets.CPANEL_PASSWORD }}
-          local-dir: ./public/   # Hasil build dari Hugo
-          remote-dir: /public_html/   # Direktori di cPanel untuk meng-upload
+          local-dir: ./hugo-site/public   # Path ke hasil build yang diunduh
+          remote-dir: /public_html/   # Direktori di cPanel
           passive: true
