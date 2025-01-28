@@ -90,6 +90,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.CPANEL_USERNAME }}
           password: ${{ secrets.CPANEL_PASSWORD }}
-          local-dir: ./public   # Path ke hasil build yang diunduh
-          remote-dir: /public_html/   # Direktori di cPanel
+          local-dir: ./hugo-site   
+          remote-dir: /public_html/
           passive: true
