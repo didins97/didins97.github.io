@@ -1,8 +1,7 @@
 ---
 title: Bertahan Hidup di Dunia IT Ala Konoha
 subtitle: "5 Tahun Jadi Developer: Bertumbuh atau Tersingkir?"
-summary: Tanpa terasa, sudah lima tahun saya menyelami dunia software development.  
-Mulai dari semangat membara di startup kecil, ritme kerja cepat di software house, hingga akhirnya memilih jalan freelance developer..
+summary: Tanpa terasa, sudah lima tahun saya menyelami dunia software development Mulai dari semangat membara di startup kecil, ritme kerja cepat di software house, hingga akhirnya memilih jalan freelance developer...
 date: 2025-05-31
 cardimage: photo1_card.jpeg
 featureimage: image.png
