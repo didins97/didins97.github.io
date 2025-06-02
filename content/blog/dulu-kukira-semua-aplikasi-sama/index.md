@@ -1,7 +1,7 @@
 ---
 title: Dulu Kukira Semua Aplikasi Itu Sama, Sampai Kenal Microservices…
 subtitle: "Monolith vs Microservices"
-summary: 
+summary: Tapi makin lama belajar, muncul istilah baru Monolith sama Microservices. Baru deh nyadar, bikin aplikasi itu bukan cuma soal nulis kode doang
 date: 2025-05-31
 cardimage: photo1_card.jpeg
 featureimage: image.png
